@@ -6,7 +6,7 @@
 
 Elaboration d'un dashboard interactif sur **Power BI** pour analyser les infractions sur la voie publique déclarées à Paris via l'application **Dans Ma Rue**.
 
-Ce dashboard permet de :
+Ce dashboard permet de : 
 - Visualiser de manière interactive (cartes, filtres, graphiques) les signalements effectués à Paris
 - Identifier les tendances et les zones sensibles
 - Formuler des recommandations sur l'affectation prioritaire des équipes d'intervention
