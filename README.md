@@ -1,8 +1,4 @@
-# Dans-Ma-Rue
-Elaboration d'un dashboard interactif sur Power BI pour analyser les infractions sur la voie publique à déclarées à Paris dans l'application Dans Ma Rue.
-<img width="953" height="529" alt="Capture d&#39;écran 2026-01-08 104024" src="https://github.com/user-attachments/assets/8d2b450a-740e-4c5b-a6ff-ace6fbc1b7cd" />
-
-# Dans Ma Rue — Dashboard Power BI
+# Déclarations d'infractions sur l'application Dans Ma Rue — Dashboard Power BI
 
 ![Dashboard Dans Ma Rue](https://github.com/user-attachments/assets/8d2b450a-740e-4c5b-a6ff-ace6fbc1b7cd)
 
@@ -17,20 +13,20 @@ Ce dashboard permet de :
 
 ---
 
-## 🛠️ Stack Technique
+## Stack Technique
 
 * **Visualisation :** Power BI (`.pbix`)
-* **Source de données :** Application Dans Ma Rue (Ville de Paris)
+* **Source de données :** `dans-ma-rue-2025.csv`
 
 ---
 
-## 📅 Contexte
+## Contexte
 
 Les données couvrent la période du **1er juin 2025 au 14 août 2025**, soit **225 059 déclarations d'infractions** signalées dans l'espace public parisien.
 
 ---
 
-## 🔍 Analyse des Données
+## Analyse des Données
 
 ### Répartition géographique
 
@@ -53,12 +49,12 @@ Trois catégories se démarquent nettement :
 | Type d'infraction | Équipes affectées | Observations |
 | :--- | :--- | :--- |
 | Objets abandonnés | 5 équipes | Principalement la **DPE STPP DT** |
-| Graffitis et tags | Nombreuses équipes | Chacune réalise peu d'interventions — l'équipe *Graffitis* est la plus active |
+| Graffitis et tags | Nombreuses équipes | Chacune réalise peu d'interventions, l'équipe *Graffitis* est la plus active |
 | Propreté | Moins d'équipes que pour les graffitis | La **DPE STPP DT** prend encore la majorité en charge |
 
 ---
 
-## 💡 Recommandations
+## Recommandations
 
 ### Réaffectation des ressources
 
@@ -69,15 +65,15 @@ Trois catégories se démarquent nettement :
 
 ---
 
-## 📁 Structure du Dépôt
+## Structure du Dépôt
 
 | Fichier | Description |
 | :--- | :--- |
-| `dans_ma_rue.pbix` | Rapport Power BI interactif |
+| `PROJET_DANS_MA_RUE.pbix` | Rapport Power BI interactif |
 | `README.md` | Documentation du projet |
 
 ---
 
-## 🚀 Comment utiliser ce projet ?
+## Comment utiliser ce projet ?
 
-Ouvrir `dans_ma_rue.pbix` dans **Power BI Desktop** et actualiser la source de données si nécessaire.
+Ouvrir `PROJET_DANS_MA_RUE.pbix` dans **Power BI Desktop**.
